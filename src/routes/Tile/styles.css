@@ -1,0 +1,49 @@
+.Tile {
+  height: 100px;
+  width: 100px;
+  box-sizing: border-box;
+  border: 5px solid green;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Tile.FlippedTile {
+  border-color: green
+}
+
+.Tile.FlippedTile:hover {
+  cursor: pointer;
+  background-color:greenyellow;
+}
+
+.Tile.FlippedTile .Letter {
+   color: green;
+}
+
+.Tile.UnflippedTile {
+  border-color: darkgray;
+  background-color: gray;
+}
+
+.Tile.UnflippedTile:hover {
+  cursor: pointer;
+  border-color: green;
+}
+
+.Tile.UnflippedTile .Letter {
+   color: gray;
+}
+
+.Tile.UsedTile {
+  border-color: gray
+}
+
+.Tile.UsedTile .Letter {
+     color: gray;
+}
+
+
+
+

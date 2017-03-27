@@ -1,0 +1,9 @@
+.Board {
+  display: flex;
+  width: 600px;
+  height: 600px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  float: left;
+}

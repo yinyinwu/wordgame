@@ -1,0 +1,13 @@
+.Button {
+  background-color: dodgerblue;
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  justify-content: center;
+}
+
+.Button:hover {
+  background-color: deepskyblue;
+  cursor: pointer
+}
